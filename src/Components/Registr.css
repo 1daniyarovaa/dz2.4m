@@ -1,0 +1,35 @@
+.register-work {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.name {
+    width: 300px;
+    height: 40px;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}
+.surname {
+    width: 300px;
+    height: 40px;
+}
+
+.email{
+    width: 300px;
+    height: 40px;
+}
+
+.btn-register {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color:lightgray;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
