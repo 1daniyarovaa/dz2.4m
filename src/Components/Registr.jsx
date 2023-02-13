@@ -17,16 +17,16 @@ const Registr = () => {
       console.log(e)
       toggleMes()
     }} className='register-work'>
-      <div className={show}>Success!</div>
+      <div className={show}>Вы удачно зарегистрировались!</div>
       <br />
       <br />
-      <input type="text" className='name' />
+      <input type="text" className='name' placeholder='Напишите свое имя' />
       <br />
       <br />
-      <input type="text" className='surname' />
+      <input type="text" className='surname' placeholder='Теперь свою фамилию' />
       <br />
       <br />
-      <input type="text" className='email' />
+      <input type="text" className='email' placeholder='А сюда электронный адрес' />
       <br />
       <br />
       <button className='btn-register'>Зарегистрироваться</button>
